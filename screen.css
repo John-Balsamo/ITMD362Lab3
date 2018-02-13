@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+  font-size: 18px;
+  font-family: font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  background-color: #ebebe0;
+  height:100%;
+}
+
+.sidebar {
+ grid-area: left; 
+}
+
+.sidebar2 {
+  grid-area: right;
+}
+
+.content {
+    grid-area: content;
+}
+
+.header {
+    grid-area: top;
+}
+
+.footer {
+    grid-area: bottom;
+}
+
+.box {
+  border-radius: 5px;
+  font-size: 150%;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  margin-top: 0;
+}
+
+#header-container {
+  width: 93%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #f5f5ef;
+  border: 6px groove #edeeef;
+} 
+
+#EntryContainer {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #e1e1d0;
+  height:90%;
+} 
+
+#EntryContainer1 {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #e1e1d0;
+  border: 6px groove #edeeef;
+  height:100%;
+} 
+
+#EntryContainer2 {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #e1e1d0;
+  border: 6px groove #edeeef;
+} 
+
+#EntryContainer3 {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #e1e1d0;
+  border: 6px groove #edeeef;
+} 
+
+#EntryContainer4 {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: #e1e1d0;
+  border: 6px groove #edeeef;
+} 
